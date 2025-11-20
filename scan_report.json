@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "generated_at": "2025-11-20T03:48:42.448272Z",
+    "target_url": "https://lovexa.ai/",
+    "max_depth": 2,
+    "max_pages": 5
+  },
+  "crawl": {
+    "visited_count": 5,
+    "visited": [
+      "https://lovexa.ai/",
+      "https://lovexa.ai/About-us.aspx",
+      "https://lovexa.ai/Wishlist1.aspx",
+      "https://lovexa.ai/stlogin.aspx?cusId=2",
+      "https://lovexa.ai/trackorder.aspx"
+    ],
+    "errors": {}
+  },
+  "passive_checks": [
+    {
+      "url": "https://lovexa.ai/",
+      "header_issues": [
+        {
+          "header": "Content-Security-Policy",
+          "message": "Missing Content-Security-Policy header (helps mitigate XSS).",
+          "severity": "medium"
+        },
+        {
+          "header": "X-Frame-Options",
+          "message": "Missing X-Frame-Options header (clickjacking protection).",
+          "severity": "low"
+        },
+        {
+          "header": "X-Content-Type-Options",
+          "message": "Missing X-Content-Type-Options header (MIME sniffing).",
+          "severity": "low"
+        },
+        {
+          "header": "Referrer-Policy",
+          "message": "Missing Referrer-Policy header (leaks of sensitive URLs).",
+          "severity": "low"
+        },
+        {
+          "header": "Strict-Transport-Security",
+          "message": "Missing HSTS header on HTTPS endpoint.",
+          "severity": "medium"
+        }
+      ],
+      "cookie_issues": [],
+      "tls_issues": [],
+      "exposed_dirs": []
+    },
+    {
+      "url": "https://lovexa.ai/About-us.aspx",
+      "header_issues": [
+        {
+          "header": "Content-Security-Policy",
+          "message": "Missing Content-Security-Policy header (helps mitigate XSS).",
+          "severity": "medium"
+        },
+        {
+          "header": "X-Frame-Options",
+          "message": "Missing X-Frame-Options header (clickjacking protection).",
+          "severity": "low"
+        },
+        {
+          "header": "X-Content-Type-Options",
+          "message": "Missing X-Content-Type-Options header (MIME sniffing).",
+          "severity": "low"
+        },
+        {
+          "header": "Referrer-Policy",
+          "message": "Missing Referrer-Policy header (leaks of sensitive URLs).",
+          "severity": "low"
+        },
+        {
+          "header": "Strict-Transport-Security",
+          "message": "Missing HSTS header on HTTPS endpoint.",
+          "severity": "medium"
+        }
+      ],
+      "cookie_issues": [],
+      "tls_issues": [],
+      "exposed_dirs": []
+    },
+    {
+      "url": "https://lovexa.ai/stlogin.aspx?cusId=2",
+      "header_issues": [
+        {
+          "header": "Content-Security-Policy",
+          "message": "Missing Content-Security-Policy header (helps mitigate XSS).",
+          "severity": "medium"
+        },
+        {
+          "header": "X-Frame-Options",
+          "message": "Missing X-Frame-Options header (clickjacking protection).",
+          "severity": "low"
+        },
+        {
+          "header": "X-Content-Type-Options",
+          "message": "Missing X-Content-Type-Options header (MIME sniffing).",
+          "severity": "low"
+        },
+        {
+          "header": "Referrer-Policy",
+          "message": "Missing Referrer-Policy header (leaks of sensitive URLs).",
+          "severity": "low"
+        },
+        {
+          "header": "Strict-Transport-Security",
+          "message": "Missing HSTS header on HTTPS endpoint.",
+          "severity": "medium"
+        }
+      ],
+      "cookie_issues": [],
+      "tls_issues": [],
+      "exposed_dirs": []
+    },
+    {
+      "url": "https://lovexa.ai/Wishlist1.aspx",
+      "header_issues": [
+        {
+          "header": "Content-Security-Policy",
+          "message": "Missing Content-Security-Policy header (helps mitigate XSS).",
+          "severity": "medium"
+        },
+        {
+          "header": "X-Frame-Options",
+          "message": "Missing X-Frame-Options header (clickjacking protection).",
+          "severity": "low"
+        },
+        {
+          "header": "X-Content-Type-Options",
+          "message": "Missing X-Content-Type-Options header (MIME sniffing).",
+          "severity": "low"
+        },
+        {
+          "header": "Referrer-Policy",
+          "message": "Missing Referrer-Policy header (leaks of sensitive URLs).",
+          "severity": "low"
+        },
+        {
+          "header": "Strict-Transport-Security",
+          "message": "Missing HSTS header on HTTPS endpoint.",
+          "severity": "medium"
+        }
+      ],
+      "cookie_issues": [],
+      "tls_issues": [],
+      "exposed_dirs": []
+    },
+    {
+      "url": "https://lovexa.ai/trackorder.aspx",
+      "header_issues": [
+        {
+          "header": "Content-Security-Policy",
+          "message": "Missing Content-Security-Policy header (helps mitigate XSS).",
+          "severity": "medium"
+        },
+        {
+          "header": "X-Frame-Options",
+          "message": "Missing X-Frame-Options header (clickjacking protection).",
+          "severity": "low"
+        },
+        {
+          "header": "X-Content-Type-Options",
+          "message": "Missing X-Content-Type-Options header (MIME sniffing).",
+          "severity": "low"
+        },
+        {
+          "header": "Referrer-Policy",
+          "message": "Missing Referrer-Policy header (leaks of sensitive URLs).",
+          "severity": "low"
+        },
+        {
+          "header": "Strict-Transport-Security",
+          "message": "Missing HSTS header on HTTPS endpoint.",
+          "severity": "medium"
+        }
+      ],
+      "cookie_issues": [],
+      "tls_issues": [],
+      "exposed_dirs": []
+    }
+  ],
+  "active_checks": {
+    "reflections": [
+      {
+        "url": "https://lovexa.ai/?q=SVS_REFLECTION_TEST_12345",
+        "parameter": "q",
+        "reflected": true,
+        "context_snippet": "\"aspnetForm\" method=\"post\" action=\"./?q=SVS_REFLECTION_TEST_12345\" id=\"aspnetForm\">\r\n<input type=\"hidden\""
+      },
+      {
+        "url": "https://lovexa.ai/About-us.aspx?q=SVS_REFLECTION_TEST_12345",
+        "parameter": "q",
+        "reflected": true,
+        "context_snippet": "method=\"post\" action=\"./About-us.aspx?q=SVS_REFLECTION_TEST_12345\" id=\"aspnetForm\">\r\n<input type=\"hidden\""
+      },
+      {
+        "url": "https://lovexa.ai/stlogin.aspx?cusId=SVS_REFLECTION_TEST_12345",
+        "parameter": "cusId",
+        "reflected": true,
+        "context_snippet": "hod=\"post\" action=\"./stlogin.aspx?cusId=SVS_REFLECTION_TEST_12345\" id=\"aspnetForm\">\r\n<input type=\"hidden\""
+      },
+      {
+        "url": "https://lovexa.ai/Wishlist1.aspx?q=SVS_REFLECTION_TEST_12345",
+        "parameter": "q",
+        "reflected": true,
+        "context_snippet": "ethod=\"post\" action=\"./Wishlist1.aspx?q=SVS_REFLECTION_TEST_12345\" id=\"aspnetForm\">\r\n<input type=\"hidden\""
+      },
+      {
+        "url": "https://lovexa.ai/trackorder.aspx?q=SVS_REFLECTION_TEST_12345",
+        "parameter": "q",
+        "reflected": true,
+        "context_snippet": "thod=\"post\" action=\"./trackorder.aspx?q=SVS_REFLECTION_TEST_12345\" id=\"aspnetForm\">\r\n<input type=\"hidden\""
+      }
+    ]
+  },
+  "sensitive_paths": {
+    "findings": []
+  }
+}

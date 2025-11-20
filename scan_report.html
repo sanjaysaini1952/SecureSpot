@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Safe Vulnerability Scan Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; }
+    h1, h2, h3 { color: #333; }
+    pre { background: #f6f6f6; padding: 1rem; overflow-x: auto; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 1.5rem; }
+    th, td { border: 1px solid #ccc; padding: 0.4rem 0.6rem; font-size: 0.9rem; }
+    th { background: #f0f0f0; text-align: left; }
+    .severity-low { color: #4a7; }
+    .severity-medium { color: #e9a100; }
+    .severity-high { color: #d33; }
+    .section { margin-bottom: 2rem; }
+  </style>
+</head>
+<body>
+  <h1>Safe Vulnerability Scan Report</h1>
+  <div class="section">
+    <h2>Meta</h2>
+    <p><strong>Target:</strong> https://lovexa.ai/</p>
+    <p><strong>Generated at (UTC):</strong> 2025-11-20T03:48:42.448272Z</p>
+    <p><strong>Max depth:</strong> 2 | <strong>Max pages:</strong> 5</p>
+  </div>
+
+  <div class="section">
+    <h2>Crawl Summary</h2>
+    <p><strong>Visited pages:</strong> 5</p>
+    <details>
+      <summary>Visited URLs</summary>
+      <pre>https://lovexa.ai/
+https://lovexa.ai/About-us.aspx
+https://lovexa.ai/Wishlist1.aspx
+https://lovexa.ai/stlogin.aspx?cusId=2
+https://lovexa.ai/trackorder.aspx</pre>
+    </details>
+    <details>
+      <summary>Errors</summary>
+      <pre>{}</pre>
+    </details>
+  </div>
+
+  <div class="section">
+    <h2>Passive Checks</h2>
+
+    <div class="section">
+      <h3>URL: https://lovexa.ai/</h3>
+      <h4>Security Headers</h4>
+      <table>
+        <tr><th>Header</th><th>Severity</th><th>Message</th></tr>
+<tr><td>Content-Security-Policy</td><td class='severity-medium'>medium</td><td>Missing Content-Security-Policy header (helps mitigate XSS).</td></tr><tr><td>X-Frame-Options</td><td class='severity-low'>low</td><td>Missing X-Frame-Options header (clickjacking protection).</td></tr><tr><td>X-Content-Type-Options</td><td class='severity-low'>low</td><td>Missing X-Content-Type-Options header (MIME sniffing).</td></tr><tr><td>Referrer-Policy</td><td class='severity-low'>low</td><td>Missing Referrer-Policy header (leaks of sensitive URLs).</td></tr><tr><td>Strict-Transport-Security</td><td class='severity-medium'>medium</td><td>Missing HSTS header on HTTPS endpoint.</td></tr></table>
+      <h4>Cookies</h4>
+      <table>
+        <tr><th>Name</th><th>Severity</th><th>Message</th></tr></table>
+      <h4>TLS / Transport</h4>
+      <ul></ul>
+      <h4>Exposed Directories / Paths</h4>
+      <ul></ul>
+    </div>
+    <div class="section">
+      <h3>URL: https://lovexa.ai/About-us.aspx</h3>
+      <h4>Security Headers</h4>
+      <table>
+        <tr><th>Header</th><th>Severity</th><th>Message</th></tr>
+<tr><td>Content-Security-Policy</td><td class='severity-medium'>medium</td><td>Missing Content-Security-Policy header (helps mitigate XSS).</td></tr><tr><td>X-Frame-Options</td><td class='severity-low'>low</td><td>Missing X-Frame-Options header (clickjacking protection).</td></tr><tr><td>X-Content-Type-Options</td><td class='severity-low'>low</td><td>Missing X-Content-Type-Options header (MIME sniffing).</td></tr><tr><td>Referrer-Policy</td><td class='severity-low'>low</td><td>Missing Referrer-Policy header (leaks of sensitive URLs).</td></tr><tr><td>Strict-Transport-Security</td><td class='severity-medium'>medium</td><td>Missing HSTS header on HTTPS endpoint.</td></tr></table>
+      <h4>Cookies</h4>
+      <table>
+        <tr><th>Name</th><th>Severity</th><th>Message</th></tr></table>
+      <h4>TLS / Transport</h4>
+      <ul></ul>
+      <h4>Exposed Directories / Paths</h4>
+      <ul></ul>
+    </div>
+    <div class="section">
+      <h3>URL: https://lovexa.ai/stlogin.aspx?cusId=2</h3>
+      <h4>Security Headers</h4>
+      <table>
+        <tr><th>Header</th><th>Severity</th><th>Message</th></tr>
+<tr><td>Content-Security-Policy</td><td class='severity-medium'>medium</td><td>Missing Content-Security-Policy header (helps mitigate XSS).</td></tr><tr><td>X-Frame-Options</td><td class='severity-low'>low</td><td>Missing X-Frame-Options header (clickjacking protection).</td></tr><tr><td>X-Content-Type-Options</td><td class='severity-low'>low</td><td>Missing X-Content-Type-Options header (MIME sniffing).</td></tr><tr><td>Referrer-Policy</td><td class='severity-low'>low</td><td>Missing Referrer-Policy header (leaks of sensitive URLs).</td></tr><tr><td>Strict-Transport-Security</td><td class='severity-medium'>medium</td><td>Missing HSTS header on HTTPS endpoint.</td></tr></table>
+      <h4>Cookies</h4>
+      <table>
+        <tr><th>Name</th><th>Severity</th><th>Message</th></tr></table>
+      <h4>TLS / Transport</h4>
+      <ul></ul>
+      <h4>Exposed Directories / Paths</h4>
+      <ul></ul>
+    </div>
+    <div class="section">
+      <h3>URL: https://lovexa.ai/Wishlist1.aspx</h3>
+      <h4>Security Headers</h4>
+      <table>
+        <tr><th>Header</th><th>Severity</th><th>Message</th></tr>
+<tr><td>Content-Security-Policy</td><td class='severity-medium'>medium</td><td>Missing Content-Security-Policy header (helps mitigate XSS).</td></tr><tr><td>X-Frame-Options</td><td class='severity-low'>low</td><td>Missing X-Frame-Options header (clickjacking protection).</td></tr><tr><td>X-Content-Type-Options</td><td class='severity-low'>low</td><td>Missing X-Content-Type-Options header (MIME sniffing).</td></tr><tr><td>Referrer-Policy</td><td class='severity-low'>low</td><td>Missing Referrer-Policy header (leaks of sensitive URLs).</td></tr><tr><td>Strict-Transport-Security</td><td class='severity-medium'>medium</td><td>Missing HSTS header on HTTPS endpoint.</td></tr></table>
+      <h4>Cookies</h4>
+      <table>
+        <tr><th>Name</th><th>Severity</th><th>Message</th></tr></table>
+      <h4>TLS / Transport</h4>
+      <ul></ul>
+      <h4>Exposed Directories / Paths</h4>
+      <ul></ul>
+    </div>
+    <div class="section">
+      <h3>URL: https://lovexa.ai/trackorder.aspx</h3>
+      <h4>Security Headers</h4>
+      <table>
+        <tr><th>Header</th><th>Severity</th><th>Message</th></tr>
+<tr><td>Content-Security-Policy</td><td class='severity-medium'>medium</td><td>Missing Content-Security-Policy header (helps mitigate XSS).</td></tr><tr><td>X-Frame-Options</td><td class='severity-low'>low</td><td>Missing X-Frame-Options header (clickjacking protection).</td></tr><tr><td>X-Content-Type-Options</td><td class='severity-low'>low</td><td>Missing X-Content-Type-Options header (MIME sniffing).</td></tr><tr><td>Referrer-Policy</td><td class='severity-low'>low</td><td>Missing Referrer-Policy header (leaks of sensitive URLs).</td></tr><tr><td>Strict-Transport-Security</td><td class='severity-medium'>medium</td><td>Missing HSTS header on HTTPS endpoint.</td></tr></table>
+      <h4>Cookies</h4>
+      <table>
+        <tr><th>Name</th><th>Severity</th><th>Message</th></tr></table>
+      <h4>TLS / Transport</h4>
+      <ul></ul>
+      <h4>Exposed Directories / Paths</h4>
+      <ul></ul>
+    </div>
+  <div class="section">
+    <h2>Safe Active Checks (Reflections)</h2>
+    <table>
+      <tr><th>URL</th><th>Parameter</th><th>Reflected</th><th>Context Snippet</th></tr>
+<tr><td>https://lovexa.ai/?q=SVS_REFLECTION_TEST_12345</td><td>q</td><td>yes</td><td><pre>"aspnetForm" method="post" action="./?q=SVS_REFLECTION_TEST_12345" id="aspnetForm"&gt;
+&lt;input type="hidden"</pre></td></tr><tr><td>https://lovexa.ai/About-us.aspx?q=SVS_REFLECTION_TEST_12345</td><td>q</td><td>yes</td><td><pre>method="post" action="./About-us.aspx?q=SVS_REFLECTION_TEST_12345" id="aspnetForm"&gt;
+&lt;input type="hidden"</pre></td></tr><tr><td>https://lovexa.ai/stlogin.aspx?cusId=SVS_REFLECTION_TEST_12345</td><td>cusId</td><td>yes</td><td><pre>hod="post" action="./stlogin.aspx?cusId=SVS_REFLECTION_TEST_12345" id="aspnetForm"&gt;
+&lt;input type="hidden"</pre></td></tr><tr><td>https://lovexa.ai/Wishlist1.aspx?q=SVS_REFLECTION_TEST_12345</td><td>q</td><td>yes</td><td><pre>ethod="post" action="./Wishlist1.aspx?q=SVS_REFLECTION_TEST_12345" id="aspnetForm"&gt;
+&lt;input type="hidden"</pre></td></tr><tr><td>https://lovexa.ai/trackorder.aspx?q=SVS_REFLECTION_TEST_12345</td><td>q</td><td>yes</td><td><pre>thod="post" action="./trackorder.aspx?q=SVS_REFLECTION_TEST_12345" id="aspnetForm"&gt;
+&lt;input type="hidden"</pre></td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Sensitive Path Probing Results</h2>
+    <table>
+      <tr><th>Path</th><th>URL</th><th>Status Code</th><th>Description</th></tr>
+
+    </table>
+  </div>
+</body>
+</html>
